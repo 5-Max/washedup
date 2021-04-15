@@ -75,7 +75,7 @@ nav li:last-child {
   background-size: cover;
   width: auto;
   height: 700px;
-  transition: height 1s;
+  transition: height 2s;
 }
 .banner:hover {
   height: 800px;
@@ -86,7 +86,7 @@ nav li:last-child {
   font-size: 75px;
   color: white;
   text-shadow: 2px 2px 5px black;
-  margin: 59px 0px 0px 241px;
+  margin: 59px 0px 0px 420px;
   opacity: .9;
 }
 .banner1 {
@@ -96,16 +96,61 @@ nav li:last-child {
   background-size: cover;
   width: auto;
   height: 1200px;
-  transition: height 1s ease-out;
+  transition: height 1s;
 }
 .banner1:hover {
   height: 1150px;
-  transition: all 3s;
+  transition: all 3s ease-out;
 }
 .banner1 h1 {
   font-family: "Cabin", sans-serif;
   font-size: 75px;
   color: white;
   text-shadow: 2px 2px 5px black;
-  margin: 36px 146px 0px 0px;
+  margin: 208px 146px 0px 0px;
+  opacity: .9;
+}
+.banner2 {
+  width: auto;
+  height: 900px;
+  background-color: black;
+}
+.banner2 h1 {
+  font-family: "Sans Source Pro", sans-serif;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 25px;
+}
+.banner2 h5 {
+  font-family: "Sans Source Pro", sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 25px 150px;
+}
+.categories {
+  width: inherit;
+  height: 500px;
+  display: flex;
+  margin: 0px 50px 0px 105px;
+}
+.banner2 img {
+  width: 200px;
+  height: 450px;
+  padding: 5px 75px 0px 75px;
+  border-radius: 25px;
+}
+.banner2 img:hover {
+  width: 250px;
+  height: 475px;
+  border-radius: 50px;
+}
+.banner2 p {
+  font-family: "Cabin", sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
 }
