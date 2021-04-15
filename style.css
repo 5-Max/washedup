@@ -71,14 +71,15 @@ nav li:last-child {
 .banner {
   display: flex;
   justify-content: center;
-  background-image: url(./pics/arabesque1.png);
+  background-image: url(./pics/Arabesque1.png);
   background-size: cover;
   width: auto;
   height: 700px;
+  transition: height 1s;
 }
 .banner:hover {
-  height: 900px;
-  transition: all 3s;
+  height: 800px;
+  transition: all 3s ease-out;
 }
 .banner h1 {
   font-family: "Source Sans Pro", sans-serif;
@@ -86,6 +87,7 @@ nav li:last-child {
   color: white;
   text-shadow: 2px 2px 5px black;
   margin: 59px 0px 0px 241px;
+  opacity: .9;
 }
 .banner1 {
   display: flex;
@@ -94,9 +96,10 @@ nav li:last-child {
   background-size: cover;
   width: auto;
   height: 1200px;
+  transition: height 1s ease-out;
 }
 .banner1:hover {
-  height: 1300px;
+  height: 1150px;
   transition: all 3s;
 }
 .banner1 h1 {
