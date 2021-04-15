@@ -71,10 +71,14 @@ nav li:last-child {
 .banner {
   display: flex;
   justify-content: center;
-  background-image: url("./pics/arabesque1.png");
+  background-image: url(./pics/arabesque1.png);
   background-size: cover;
   width: auto;
   height: 700px;
+}
+.banner:hover {
+  height: 900px;
+  transition: all 3s;
 }
 .banner h1 {
   font-family: "Source Sans Pro", sans-serif;
@@ -90,6 +94,10 @@ nav li:last-child {
   background-size: cover;
   width: auto;
   height: 1200px;
+}
+.banner1:hover {
+  height: 1300px;
+  transition: all 3s;
 }
 .banner1 h1 {
   font-family: "Cabin", sans-serif;
