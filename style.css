@@ -1,0 +1,100 @@
+                                    /* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+body {
+  font-family: "Cabin", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@media only screen and (max-width: 990px) {
+  html {
+    font-size: 14px;
+  }
+}
+                                        /* Header */
+header {
+  display: flex;
+  align-items: center;
+  padding: .5rem 3.75rem;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+.logo {
+  font-family: "Cabin", sans-serif;
+  font-size: 35px;
+}
+header .logo-small {
+  display: none;
+}
+header .logo-small,
+header .logo-big {
+  flex-grow: 1;
+}
+nav li {
+  display: inline;
+  padding-right: 2rem;
+  transition: padding-right 5s ease-out;
+}
+a:hover, a:focus {
+  text-decoration: underline;
+  font-size: 18px;
+  color: blue;
+  transition: all 1s;
+}
+nav li:last-child {
+  padding-right: 0;
+}
+@media only screen and (max-width: 990px) {
+  header .logo-big {
+    display: none;
+  }
+  header .logo-small {
+    display: block;
+  }
+}
+@media only screen and (max-width: 540px) {
+  header {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header .logo-small {
+    margin-bottom: 1rem;
+  }
+}
+                                           /* body */
+.banner {
+  display: flex;
+  justify-content: center;
+  background-image: url("./pics/arabesque1.png");
+  background-size: cover;
+  width: auto;
+  height: 700px;
+}
+.banner h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 75px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  margin: 59px 0px 0px 241px;
+}
+.banner1 {
+  display: flex;
+  justify-content: center;
+  background-image: url(./pics/Flight1.jpg);
+  background-size: cover;
+  width: auto;
+  height: 1200px;
+}
+.banner1 h1 {
+  font-family: "Cabin", sans-serif;
+  font-size: 75px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  margin: 36px 146px 0px 0px;
+}
