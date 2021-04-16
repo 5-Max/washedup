@@ -1,5 +1,4 @@
                                     /* Universal Styles */
-
 html {
   font-size: 18px;
   background-color: black;
@@ -21,18 +20,28 @@ a {
 }
                                         /* Header */
 header {
+  color: white;
+  height: 640px;
+}
+.navbar {
   display: flex;
   align-items: center;
-  padding: .5rem 3.75rem;
-  background-color: transparent;
-  color: white;
-  height: 70px;
+  height: 100px;
+}
+.navbar h1 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  margin: 10px 0px 0px 25px;
+  text-shadow: 2px 2px 5px black;
 }
 .logo {
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 62px;
+  margin: 10px 0px 0px 25px;
 }
 header .logo-small {
   display: none;
@@ -48,12 +57,20 @@ nav li {
 }
 a:hover, a:focus {
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 24px;
   color: blue;
-  transition: all 1s;
+  transition: padding-right 1s;
 }
 nav li:last-child {
   padding-right: 0;
+}
+.list {
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 400;
+  padding-right: 2rem;
+  font-size: 24px;
+  text-shadow: 2px 2px 5px black;
 }
 @media only screen and (max-width: 990px) {
   header .logo-big {
@@ -75,23 +92,22 @@ nav li:last-child {
 }
                                            /* Home Page */
 .banner {
-    background-image: url(./pics/Arabesque1.png);
-    background-size: cover;
-    width: auto;
-    height: 650px;
+  background-image: url(./pics/Arabesque1.png);
+  background-size: cover;
+  width: auto;
+  height: 650px;
 }
-.banner h1 {
+.banner h2 {
   font-family: 'Nanum Myeongjo', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 57px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    margin: 0px 0px 0px 0px;
-    padding: 25px;
-    width: auto;
-    text-align: center;
-    opacity: .9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  margin: 0px 0px 0px 0px;
+  padding: 255px 0px;
+  width: auto;
+  text-align: center;
 }
 .banner1 {
   display: flex;
@@ -114,7 +130,6 @@ nav li:last-child {
   color: white;
   text-shadow: 2px 2px 5px black;
   margin: 208px 146px 0px 0px;
-  opacity: .9;
 }
 .banner2 {
   width: auto;
@@ -156,40 +171,40 @@ nav li:last-child {
   margin: 0px;
   display: flex;
   justify-content: center;
-     background-color: #38383b;
+  background-color: #38383b;
 }
 .categories img {
-        width: 400px;
-    margin: 15px 50px;
-    overflow: hidden;
+  width: 400px;
+  margin: 15px 50px;
+  overflow: hidden;
 }
 .whimzee1 {
   height: 425px;
- width: 400px;
-    display: flex;
-    border-radius: 25px;
+  width: 400px;
+  display: flex;
+  border-radius: 25px;
 }
 .whimzee2 {
   height: 325px;
   width: 400px;
-    display: flex;
-    border-radius: 25px;
+  display: flex;
+  border-radius: 25px;
 }
 .whimzee3 {
   height: 225px;
   width: 400px;
-    display: flex;
-    border-radius: 25px;
+  display: flex;
+  border-radius: 25px;
 }
 .catDesc {
   width: auto;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: -100px;
-    margin: 0px 0px 0px 90px;
-    font-family: 'Nanum Myeongjo';
-   font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -100px;
+  margin: 0px 0px 0px 90px;
+  font-family: 'Nanum Myeongjo';
+  font-size: 24px;
 }
 .catDesc1 {margin-top: -1px;}
 .catDesc2 {margin-top: -110px;}
@@ -235,42 +250,46 @@ h5 a {
   font-weight: 400;
   font-size: 12px;
 }
+.copyright a:hover {
+  font-size: 12px;
+  color: blue;
+  text-decoration: underline;
+}
                                         /*About Us*/
 .bannerAU {
-     background-image: url(./pics/aboutus1.jpg);
-    background-size: cover;
-    width: auto;
-    height: 500px;
+  background-image: url(./pics/aboutus1.jpg);
+  background-size: cover;
+  width: auto;
+  height: 640px;
 }
 .bannerAU1 {
   font-family: 'Nanum Myeongjo', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 57px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    margin: 0px 0px 5px 50px;
-    padding: 25px 5px;
-    opacity: .9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  margin: 55px 0px 5px 260px;
+  padding: 25px 5px;
 }
 .bannerAU2 {
   font-family: 'Nanum Myeongjo', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 57px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    margin: 0px;
-    padding: 0px 151px;
-    opacity: .9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  margin: 0px;
+  padding: 210px 0px 0px 659px;
 }
 .aboutUsP {
-      font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: white;
-    padding: 50px 150px;
-    line-height: 40px;
-    background-color: #38383b;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  padding: 50px 250px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  background-color: #38383b;
 }
