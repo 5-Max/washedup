@@ -78,21 +78,16 @@ nav li:last-child {
   background-image: url(./pics/Arabesque1.png);
   background-size: cover;
   width: auto;
-  height: 700px;
-  transition: height 2s;
-}
-.banner:hover {
-  height: 800px;
-  transition: all 3s ease-out;
+  height: 650px;
 }
 .banner h1 {
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 75px;
+  font-size: 65px;
   color: white;
   text-shadow: 2px 2px 5px black;
-  margin: 59px 0px 0px 420px;
+  margin: 39px 0px 0px 330px;
   opacity: .9;
 }
 .banner1 {
@@ -102,11 +97,11 @@ nav li:last-child {
   background-size: cover;
   width: auto;
   height: 1200px;
-  transition: height 1s;
+  transition: height 1s 3s;
 }
 .banner1:hover {
   height: 1150px;
-  transition: all 3s ease-out;
+  transition: height 4s ease-out;
 }
 .banner1 h1 {
   font-family: 'Nanum Myeongjo', serif;
@@ -120,7 +115,7 @@ nav li:last-child {
 }
 .banner2 {
   width: auto;
-  height: 900px;
+  height: 1100px;
   background-color: black;
 }
 .banner2 h1 {
@@ -155,11 +150,6 @@ nav li:last-child {
   height: 450px;
   padding: 5px 75px 0px 75px;
   border-radius: 25px;
-}
-.banner2 img:hover {
-  width: 250px;
-  height: 475px;
-  border-radius: 50px;
 }
 .banner2 p {
   font-family: 'Nanum Myeongjo', serif;
