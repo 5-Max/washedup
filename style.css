@@ -34,7 +34,7 @@ header {
   font-weight: 400;
   font-size: 62px;
   margin: 10px 0px 0px 25px;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 1px 1px 1px black;
 }
 .logo {
   font-family: 'Nanum Myeongjo', serif;
@@ -42,6 +42,7 @@ header {
   font-weight: 400;
   font-size: 62px;
   margin: 10px 0px 0px 25px;
+  color: #8c7373;
 }
 header .logo-small {
   display: none;
@@ -282,14 +283,14 @@ h5 a {
   margin: 0px;
   padding: 210px 0px 0px 659px;
 }
-.aboutUsP {
+.aboutUsP p {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   color: white;
   padding: 50px 250px;
-  line-height: 35px;
-  letter-spacing: 2px;
+  line-height: 33px;
+  letter-spacing: 1px;
   background-color: #38383b;
 }
