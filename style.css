@@ -4,7 +4,9 @@ html {
   font-size: 18px;
 }
 body {
-  font-family: "Cabin", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 a {
   text-decoration: none;
@@ -22,11 +24,13 @@ header {
   padding: .5rem 3.75rem;
   background-color: black;
   color: white;
-  height: 50px;
+  height: 70px;
 }
 .logo {
-  font-family: "Cabin", sans-serif;
-  font-size: 35px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
 }
 header .logo-small {
   display: none;
@@ -82,7 +86,9 @@ nav li:last-child {
   transition: all 3s ease-out;
 }
 .banner h1 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 75px;
   color: white;
   text-shadow: 2px 2px 5px black;
@@ -103,7 +109,9 @@ nav li:last-child {
   transition: all 3s ease-out;
 }
 .banner1 h1 {
-  font-family: "Cabin", sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 75px;
   color: white;
   text-shadow: 2px 2px 5px black;
@@ -116,20 +124,25 @@ nav li:last-child {
   background-color: black;
 }
 .banner2 h1 {
-  font-family: "Sans Source Pro", sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 70px;
   color: white;
   text-align: center;
   margin: 0px;
-  padding: 25px;
+  padding: 80px 0px 0px 0px;
 }
 .banner2 h5 {
-  font-family: "Sans Source Pro", sans-serif;
-  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
   color: white;
   text-align: center;
   margin: 0px;
-  padding: 25px 150px;
+  padding: 40px 0px 80px 0px;
+  line-height: 50px;
 }
 .categories {
   width: inherit;
@@ -149,7 +162,9 @@ nav li:last-child {
   border-radius: 50px;
 }
 .banner2 p {
-  font-family: "Cabin", sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 300;
   font-size: 24px;
   color: white;
   text-align: center;
