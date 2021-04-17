@@ -31,10 +31,10 @@ header {
 .navbar h1 {
   font-family: 'Nanum Myeongjo', serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 62px;
+  font-weight: 700;
+  font-size: 75px;
   margin: 10px 0px 0px 25px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 2px black;
 }
 .logo {
   font-family: 'Nanum Myeongjo', serif;
@@ -42,7 +42,7 @@ header {
   font-weight: 400;
   font-size: 62px;
   margin: 10px 0px 0px 25px;
-  color: #8c7373;
+  color: white;
 }
 header .logo-small {
   display: none;
