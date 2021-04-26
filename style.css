@@ -73,6 +73,10 @@ nav li:last-child {
   font-size: 24px;
   text-shadow: 2px 2px 5px black;
 }
+.active {
+  opacity: .9;
+  text-shadow: 1px 1px #18d0a7;
+}
 @media only screen and (max-width: 990px) {
   header .logo-big {
     display: none;
@@ -293,4 +297,21 @@ h5 a {
   line-height: 33px;
   letter-spacing: 1px;
   background-color: #38383b;
+}
+                              /*contact*/
+.bannerContact {
+  background-image: url(./pics/badCat.jpg);
+  background-size: cover;
+  width: auto;
+  height: 640px;
+}
+.bannerContact h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61px;
+    color: black;
+    text-align: center;
+    padding: 26px 0px;
+    text-shadow: 1px 1px white;
 }
