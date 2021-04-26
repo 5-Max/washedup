@@ -13,11 +13,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-@media only screen and (max-width: 990px) {
-  html {
-    font-size: 14px;
-  }
-}
                                         /* Header */
 header {
   color: white;
@@ -43,13 +38,13 @@ header {
   font-size: 62px;
   margin: 10px 0px 0px 25px;
   color: white;
-}
-header .logo-small {
-  display: none;
-}
-header .logo-small,
-header .logo-big {
   flex-grow: 1;
+}
+.logo a:hover, a:focus {
+  font-size: 74px;
+  text-decoration: none;
+  color: pink;
+
 }
 nav li {
   display: inline;
@@ -76,24 +71,6 @@ nav li:last-child {
 .active {
   opacity: .9;
   text-shadow: 1px 1px #18d0a7;
-}
-@media only screen and (max-width: 990px) {
-  header .logo-big {
-    display: none;
-  }
-  header .logo-small {
-    display: block;
-  }
-}
-@media only screen and (max-width: 540px) {
-  header {
-    flex-direction: column;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  header .logo-small {
-    margin-bottom: 1rem;
-  }
 }
                                            /* Home Page */
 .banner {
