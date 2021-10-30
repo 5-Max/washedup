@@ -202,7 +202,7 @@ nav li:last-child {
   width: auto;
   height: 185px;
   margin: 25px 0px;
-  line-height: 40px;
+  line-height: 30px;
   background-color: black;
   color: white;
 }
@@ -291,9 +291,9 @@ nav li:last-child {
                                                        /*contact*/
 .bannerContact {
   background-image: url(./pics/badCat2.jpg);
-  background-size: cover;
+  background-size: contain;
   width: auto;
-  height: 640px;
+  height: auto;
 }
 .bannerContact h2 {
     font-family: 'Open Sans', sans-serif;
@@ -305,7 +305,15 @@ nav li:last-child {
     padding: 26px 0px;
     text-shadow: 1px 1px white;
 }
+header .bannerContact {
+  height: auto;
+}
                                                          /*artwork*/
+hr {
+  color: gray;
+  width: 90%;
+  opacity: .3;
+}
 .artHeader {
   height: 200px;
   width: auto;
@@ -315,30 +323,30 @@ nav li:last-child {
   background-size: cover;
   height: 200px;
 }
-#intro {
+.intro {
   width: auto;
   height: 250px;
   background-color: white;
   color: black;
   text-align: center;
 }
-.intro, h6 {
+.intro h6 {
     font-size: 59px;
     font-weight: 600;
     padding: 50px;
 }
-.intro, h5 {
+.intro h5 {
   font-size: 25px;
     font-weight: 600;
 }
-.intro, h4 {
+.intro h4 {
   font-size: 25px;
     padding: 25px;
     text-align: center;
 }
 .picBody {
   width: auto;
-    background-color: gray;
+    background-color:#80808066;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -349,8 +357,20 @@ nav li:last-child {
     margin: 0px;
     padding: 25px;
 }
+/* artwork title */
+.picBody h2 {
+  padding-top: 5px;
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* artwork price */
+.picBody h3 {
+  font-size: 35px;
+}
+/* artwork dimensions */
 .picBody p {
-  font-size: 25px;
+  padding-top: 5px;
+  font-size: 10px;
 }
 .row {
   width: auto;
@@ -366,8 +386,9 @@ nav li:last-child {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-      height: 200px;
-    padding: 0px 25px;
+  height: 200px;
+  width: 200px;
+  padding: 0px 25px;
 }
 
 .myImg:hover {
