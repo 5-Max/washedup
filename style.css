@@ -19,6 +19,7 @@ header {
   color: white;
   height: 640px;
 }
+
 .navbar {
   display: flex;
   align-items: center;
@@ -72,9 +73,54 @@ nav li:last-child {
   text-shadow: 2px 2px 5px black;
 }
 .active {
-  opacity: .9;
+  opacity: .6;
   text-shadow: 1px 1px #18d0a7;
+  color: aqua;
 }
+@media only screen and (max-width: 700px){
+  header {
+    width: auto;
+    display: block;
+    height: 250px;
+  }
+  .banner {
+    background-image: url(./pics/Arabesque_mobile.png) !important;
+    display: block;
+    height: 250px !important;
+    margin: 0px;
+    padding: 0px;
+  }
+  .banner h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px !important;
+    padding: 20px !important;
+  }
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+  .logo {
+    width: auto;
+  }
+  .logo h1 {
+    font-size: 35px;
+    width: auto;
+    margin: 15px;
+  }
+  .list {
+    width: auto;
+    font-size: 14px;
+    margin: 5px;
+    padding: 0px;
+  }
+  .list li {
+    margin:0px;
+    padding: 10px;
+  }
+}
+
+
                                                          /* Home Page */
 .banner {
   background-image: url(./pics/Arabesque1.png);
@@ -119,7 +165,7 @@ nav li:last-child {
 .banner2 {
   width: auto;
   height: 400px;
-  background-color: #38383b;
+  background-color: black;
 }
 .banner2 h1 {
   font-family: 'Nanum Myeongjo', serif;
@@ -150,13 +196,51 @@ nav li:last-child {
   color: white;
   text-align: center;
 }
+@media only screen and (max-width: 700px){
+  .banner1 {
+    height: 600px;
+    transition: none;
+  }
+  .banner1 h1 {
+    font-size: 50px;
+  }
+  .banner2 {
+    background-color: black;
+  }
+  .banner2 h1 {
+    font-size: 50px;
+  }
+  .banner2 h5 {
+    font-size: 18px;
+  }
+  .categories {
+    flex-direction: column;
+    align-items: center;
+    height: auto !important;
+    width: auto;
+  }
+  .catDesc {
+    display: none;
+  }
+  .catDesc1, .catDesc2, .catDesc3 {
+    display: none;
+  }
+  .mobile_p {
+    display: block !important;
+    font-size: 25px;
+    margin: 14px auto 0px auto;
+  }
+}
+.mobile_p {
+  display: none;
+}
 .categories {
   width: auto;
   height: 530px;
   margin: 0px;
   display: flex;
   justify-content: center;
-  background-color: #38383b;
+  background-color: black;
 }
 .categories img {
   width: 400px;
@@ -235,6 +319,7 @@ nav li:last-child {
   font-weight: 700;
 }
 .copyright {
+  display: flex;
   width: auto;
   margin: 0px;
   text-align: left;
@@ -244,11 +329,37 @@ nav li:last-child {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
+  width: 100px;
+}
+.copyright, p1 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: right; 
+  margin-top: 0px;
+  width: 100%;
 }
 .copyright a:hover {
   font-size: 12px;
   color: blue;
   text-decoration: underline;
+}
+@media only screen and (max-width: 700px){
+  .footer {
+    height: 150px;
+  }
+  .copyright {
+    margin-top: 15px;
+  }
+  .copyright p {
+    font-size: 6px;
+    width: 100px;
+  }
+  .copyright p1 {
+    margin: 0px;
+    font-size: 6px;
+  }
 }
                                                       /*About Us*/
 .bannerAU {
@@ -287,6 +398,34 @@ nav li:last-child {
   line-height: 33px;
   letter-spacing: 1px;
   background-color: #38383b;
+}
+@media only screen and (max-width: 700px){
+  .bannerAU {
+    height: 200px;
+  }
+  .bannerAU1 {
+    padding-top: 40px;
+    margin: 0px;
+    font-size: 30px;
+  }
+  .bannerAU2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    margin: -17px 0px 0px 0px;
+    padding: 0px 0px 0px 61px;
+  }
+  .aboutUsP p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    background-color: black;
+  }
 }
                                                        /*contact*/
 .bannerContact {
@@ -337,25 +476,25 @@ hr {
 }
 .intro h5 {
   font-size: 25px;
-    font-weight: 600;
+  font-weight: 600;
 }
 .intro h4 {
   font-size: 25px;
-    padding: 25px;
-    text-align: center;
+  padding: 25px;
+  text-align: center;
 }
 .picBody {
   width: auto;
-    background-color:#80808066;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  background-color:#80808066;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .picBody h1 {
-    font-size: 45px;
-    text-align: center;
-    margin: 0px;
-    padding: 25px;
+  font-size: 45px;
+  text-align: center;
+  margin: 0px;
+  padding: 25px;
 }
 /* artwork title */
 .picBody h2 {
@@ -365,7 +504,7 @@ hr {
 }
 /* artwork price */
 .picBody h3 {
-  font-size: 35px;
+  font-size: 25px;
 }
 /* artwork dimensions */
 .picBody p {
@@ -390,11 +529,9 @@ hr {
   width: 200px;
   padding: 0px 25px;
 }
-
 .myImg:hover {
   opacity: 0.7;
 }
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -409,7 +546,6 @@ hr {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
@@ -417,7 +553,6 @@ hr {
   width: 80%;
   max-width: 700px;
 }
-
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
@@ -429,7 +564,6 @@ hr {
   padding: 10px 0;
   height: 150px;
 }
-
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
   animation-name: zoom;
@@ -463,5 +597,33 @@ hr {
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro h6 {
+    font-size: 30px;
+  }
+  .intro h5 {
+    font-size: 15px;
+  }
+  .intro h4 {
+    font-size: 12px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .wrap h3 {
+    font-size: 15px;
+  }
+  .picBody {
+    background-color: black;
+  }
+  .picBody p {
+    font-size: 12px;
+    padding-bottom: 20px;
   }
 }
